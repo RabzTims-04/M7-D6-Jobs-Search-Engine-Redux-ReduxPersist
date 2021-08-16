@@ -86,7 +86,7 @@ class Categories extends Component {
                                 </Card>
                                 <div className="pl-2">
                                     <ul className="p-3 " style={{listStyle:"none"}}>
-                                        <Link style={{textDecoration:"none"}} to="/">
+                                        <Link style={{textDecoration:"none"}} to="/home">
                                             <li className="">
                                                 <RiHomeHeartFill className="" style={{width:"30px", height:"30px", color:"black"}}/> 
                                                 <span className="pl-2" style={{paddingLeft:"2rem", color:"black"}} >Home</span>   

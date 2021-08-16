@@ -15,6 +15,16 @@ export const addJobDetails = (job) => ({
     payload: job
 })
 
+export const addUserNameAction = (name) => ({
+    type: actionTypes.ADD_USERNAME,
+    payload: name
+})
+
+export const addPasswordAction = (pass) => ({
+    type: actionTypes.ADD_PASSWORD,
+    payload: pass
+})
+
 export const fetchCompaniesAction = (event, companySearch, companyLocation) => {
     return async (dispatch, getState) => {
         if(event.key === "Enter"){

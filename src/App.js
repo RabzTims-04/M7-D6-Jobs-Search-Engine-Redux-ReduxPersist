@@ -8,6 +8,7 @@ import Favourites from './components/Favourites/Favourites';
 import Companies from './components/Companies/Companies';
 import JobTitle from './components/JobTitle/JobTitle';
 import Categories from './components/Categories.jsx/Categories';
+import Login from './components/Login/Login';
 
 function App() {
 
@@ -30,7 +31,8 @@ function App() {
     <>
     <BrowserRouter>
       <NavBar/>
-      <Route exact path="/" render={(routerProps)=> <Home category={categoryData} companies={companiesData} jobs={jobsData} {...routerProps}  />} />
+      <Route exact path="/" component={Login} />
+      <Route exact path="/home" render={(routerProps)=> <Home category={categoryData} companies={companiesData} jobs={jobsData} {...routerProps}  />} />
       <Route exact path="/companies" render={(routerProps) => <Companies {...routerProps} />} />
       <Route exact path="/jobs" render={(routerProps) => <JobTitle {...routerProps} />} />
       <Route exact path="/categories" render={(routerProps) => <Categories {...routerProps} />} />

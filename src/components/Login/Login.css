@@ -1,0 +1,15 @@
+#login-body{
+    background-color: black!important;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#login-nav{
+    background-color: black!important;
+}
+
+.login-btn{
+    border-radius: 25px!important;
+    width: 60%;
+    margin-top: 1.5rem;
+}

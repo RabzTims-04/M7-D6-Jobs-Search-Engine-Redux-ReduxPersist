@@ -6,12 +6,12 @@ const favouritesReducer = (state = initialState.favourites, action) => {
     
     switch(action.type){
         case ADD_TO_FAVOURITES : 
-        let companyInFavourites = state.companies.findIndex((c) => c.id === action.payload.id)
+        let companyInFavourites = state.companies.find((c) => c.id === action.payload.id)
         let newCompanies = [...state.companies]
-        if(companyInFavourites === -1){
-            newCompanies.push(action.payload)
-        }else{
+        if(newCompanies.includes(companyInFavourites)){
             alert("already in favourites")
+        }else{
+            newCompanies.push(action.payload)
         }
         return {
             ...state,

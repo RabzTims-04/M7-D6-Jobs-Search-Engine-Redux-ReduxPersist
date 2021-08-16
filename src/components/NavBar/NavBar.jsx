@@ -9,9 +9,9 @@ const mapStateToProps = (state) => state
 class NavBar extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar id="home-navbar" collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
-                <Link to="/" className="navbar-brand">FutureJobs&copy;</Link>
+                <Link to="/home" className="navbar-brand">FutureJobs&copy;</Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
