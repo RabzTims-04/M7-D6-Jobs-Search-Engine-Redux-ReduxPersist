@@ -38,7 +38,7 @@ class Categories extends Component {
                 <Row >
                     <Col style={{borderRight:"1px solid #F3F2EF"}} className="side-panels-categories p-0" md={3}>
                         <Card style={{ width: '100%', border:"none", paddingTop:"40px", backgroundColor:"transparent" }}>
-                            <Link style={{color:'black', fontWeight:"bolder"}} to="/" className="navbar-brand text-center">FutureJobs&copy;</Link>
+                            <Link style={{color:'black', fontWeight:"bolder"}} to="/home" className="navbar-brand text-center">FutureJobs&copy;</Link>
                                     <Card.Body>                                        
                                         <Card.Title className="text-center mb-5">Search for Best Companies</Card.Title>
                                             <div className="my-4">
