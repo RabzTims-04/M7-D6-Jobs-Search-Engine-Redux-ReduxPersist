@@ -7,7 +7,7 @@ import favouritesReducer from "../reducers/favouritesReducer"
 import jobDetailsReducer from "../reducers/jobDetailsReducer"
 import jobsReducer from "../reducers/jobsReducer"
 import storage from "redux-persist/lib/storage"
-import sessionStorage from 'redux-persist/lib/storage/session'
+/* import sessionStorage from 'redux-persist/lib/storage/session' */
 import { persistStore, persistReducer } from "redux-persist";
 import { encryptTransform } from "redux-persist-transform-encrypt";
 import userDetailsReducer from "../reducers/userDetailsReducer"

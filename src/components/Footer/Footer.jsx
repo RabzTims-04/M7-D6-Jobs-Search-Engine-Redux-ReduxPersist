@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaFacebook } from "react-icons/fa"
 import { GrInstagram, GrLinkedin } from "react-icons/gr"
 import { ImYoutube } from "react-icons/im"
-
+import "./Footer.css"
 class Footer extends Component {
     render() {
         return (
@@ -55,7 +55,9 @@ class Footer extends Component {
                     </Col>
                 </Row>
                 <Row style={{backgroundColor:"#F3F2EF"}} className="text-center px-5">
-                    <p>made for school project @FutureJobs&copy;</p>
+                    <div className="scroll-left">
+                        <p>made for school project @FutureJobs&copy;</p>
+                    </div>
                 </Row>
             </Container>
         );

@@ -8,9 +8,9 @@ import "./Login.css"
 
 const Login = ({history}) => {
 
-    const userLogin =() => {
+   /*  const userLogin =() => {
         console.log(window.localStorage.getItem('userName'));
-    }
+    } */
 
     const { userName, password } = useSelector(state => state)
     const dispatch = useDispatch()

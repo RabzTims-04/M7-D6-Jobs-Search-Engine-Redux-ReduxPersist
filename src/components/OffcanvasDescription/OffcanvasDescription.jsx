@@ -31,7 +31,7 @@ function OffcanvasDescription({jobsList}) {
                             <FcLike className="mr-5 ml-2 mt-4" onClick={() => dispatch(removeFromFavouritesAction(jobDetails.details))} />
                         </Col>
                         :<Col md={1}>
-                            <AiOutlineHeart className="mr-5 ml-2 mt-4" onClick={() =>dispatch(addToFavouritesAction(jobDetails.details))} />
+                            <AiOutlineHeart className="mr-5 ml-2 mt-4" onClick={() => dispatch(addToFavouritesAction(jobDetails.details))} />
                         </Col>
                 }
           </Offcanvas.Header>
